@@ -9,7 +9,7 @@ Fun Bus is a travel agency looking for some help on their website.  They want a 
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -45,9 +45,9 @@ Follow these steps for completing your project.
 
 
 ## Task 5: Mobile Updates Needed
-* [ ] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
-* [ ] Review the [mobile design file](design-files/fun-bus-mobile.png). You will see several design updates that need updating. 
-* [ ] Match the design file at `500px` as well as you can 
+* [X] Use escaping to create a variable named `@mobile` that contains this value: `(max-width: 500px)`.  Use the `variables.less` file to house your variables.
+* [X] Review the [mobile design file](design-files/fun-bus-mobile.png). You will see several design updates that need updating. 
+* [X] Match the design file at `500px` as well as you can 
 
 ## Stretch Goals: 
 * [ ] Create an animation mixin using parametric mixins
