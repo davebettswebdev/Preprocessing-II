@@ -1,3 +1,12 @@
+
+.welcomeHeading {
+  margin: 2% 0;
+}
+
+.aboutP {
+  border-bottom: 1px dashed black;
+}
+
 .home {
 
   .content-section {
@@ -45,6 +54,8 @@
     img {
       border-radius: 10px;
     }
+
+    
   }
 
   .content-pick {
@@ -56,6 +67,74 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+
+      .btn {
+        .button(2rem, white, #008B8B
+        )
+      }
     }
   }
+
+  
+  
 }// home
+
+@media @phone {
+
+  .topPic {
+    display: flex;
+    justify-content: center;
+  }
+
+  .topPic img{
+    width: 95%;
+  }
+
+  .welcomeHeading {
+    margin: 3%;
+  }
+
+  .aboutP {
+    margin: 3%
+  }
+
+  .home .content-section .text-content {
+
+    width: 98%;
+    margin: 0 3%;
+  }
+
+  .home .content-section .img-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+  }
+  .content-section {
+    flex-direction: column;
+ 
+   
+  }
+
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
+
+  .home .content-pick {
+    flex-direction: column;
+    width: 100%;
+    margin: 3%;
+  }
+
+  .home .content-destination {
+    width: 93%;
+  }
+
+  .home .content-pick .destination {
+    width: 98%;
+    padding: 1% 8%;
+  }
+  
+}
